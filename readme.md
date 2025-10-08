@@ -2,13 +2,13 @@
 
 **This repository is mirrored between GitLab and GitHub. This means that commits, branches, and tags pushed to one platform are automatically synchronized to the other.**
 
-## 📋 Overview
+##  Overview
 
 This project demonstrates seamless synchronization between GitLab and GitHub using **Push Mirroring**. The setup ensures that all code changes, branches, and merge requests are automatically reflected across both platforms, providing redundancy and leveraging the strengths of both ecosystems.
 
 ![](./img/overview%20miror.png)
 
-### 🔁 How It Works
+###  How It Works
 
 We use GitLab's Push Mirroring feature to automatically keep the GitHub repository in sync.
 
@@ -18,7 +18,7 @@ We use GitLab's Push Mirroring feature to automatically keep the GitHub reposito
 
 All development and primary CI/CD pipelines typically run on the GitLab repository. When code is pushed to GitLab, it is automatically mirrored to GitHub.
 
-#### 🚀 Step-by-Step Implementation Guide
+####  Step-by-Step Implementation Guide
 
 ### 1.Create create repositories in `GITTHUB and GITLAB`
 ## Github Repo
@@ -97,11 +97,11 @@ git push -u origin main
 ### Gitlab
 ![](./img/git%20lab%20mr.png)
 
-## 📋 What is Mirrored?
+##  What is Mirrored?
 ![](./img/Ch.png)
 
 
-## 👥 Contribution Guidelines
+##  Contribution Guidelines
 
 **✅ DO:**
 
@@ -120,7 +120,7 @@ git push -u origin main
 
 3.Force push to either repository
 
-### 🚀 Future Ready:
+###  Future Ready:
 This mirroring strategy provides a scalable foundation for collaborative development, combining the strengths of both platforms while maintaining clean version control practices. The implementation proves that teams can effectively utilize multiple git hosting services without compromising on workflow efficiency or code integrity.
 
 The mirroring setup delivers the best of both worlds - GitLab's robust DevOps capabilities and GitHub's extensive ecosystem - creating an ideal environment for modern software development. 
